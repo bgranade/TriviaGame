@@ -1,0 +1,10 @@
+body{
+	background-image: url('../images/thesimpsons.jpg');
+	margin:0;
+    padding:0;
+    background-size: auto
+}
+*{
+	box-sizing: border-box;
+	font-family: sans-serif;
+}

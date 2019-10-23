@@ -2,12 +2,34 @@
 <html>
 <head>
 	<title>triviagame</title>
-	<link rel="stylesheet" href="css/quiz.css">
+	<link rel="stylesheet" href="assets/css/style.css">
 </head>
 <body>
 
 <h1>Simpson Trivia</h1>
 
-        <script src="js/script.js"></script>
-    </body>
-    </html>
+<div class="quiz_wrapper">
+           
+        <div class="question" id="questionBox">
+            
+        </div>
+        
+        <div class="options">
+              <ul id="ul">
+                    <li id="op1" onclick="button(this)"></li>
+                    <li id="op2" onclick="button(this)"></li>
+              </ul>
+        </div>
+        <div class="score">
+               <div class="next">
+                     <button type="button" onclick="next()" id="button">Next</button>
+               </div>
+               <div class="score-card">
+                     Score : <span id="scoreCard">0</span>
+               </div>
+        </div>
+        <div id="count">Start</div>
+ </div>
+<script src="js/script.js"></script>
+</body>
+</html>
